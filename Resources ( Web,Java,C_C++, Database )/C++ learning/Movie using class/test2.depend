@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532656749 source:c:\users\trung\desktop\c++ learning\test2\main.cpp
+	<iostream>
+	<cstdio>
+	<string>
+

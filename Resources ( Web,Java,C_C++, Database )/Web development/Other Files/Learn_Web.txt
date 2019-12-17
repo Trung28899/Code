@@ -1,0 +1,140 @@
+ALL THE OPTIONS TO BECOME A WEB DEVELOPER IN 2019:
+
+1, Tool: 
+- Text Editor (or IDE)
+- Web Browser (chrome)
+- Design tools (xd, photoshop, sketch, figma) (optional)
+- 3rd Party Terminal (Hyper, Git Bash, Git Hub, etc...) (optional)
+(Learn github in 15 minutes)
+
+2, Languague:
+ 
+- Must Learn: HTML, CSS
++, Semantic HTML5 Elements
++, Basic CSS (Positioning, box model, etc...)
++, Flexbox, CSS Grid
++, CSS variables
++, Browser dev tools
+
+- Responsive Layout: Looking decent on every devices
++, Set viewport
++, Fluid widths
++, Media queries
++, rem over px
++, Mobile first, stacked columns
+
+3, Basic Deployment: 
+- Register a domain name
+- Manage share hosting
+- FTP or SFTP file upload
+- Static hosting (need to know git)
+
+------------------------------------------------------------
+4, Sass Pre-Procssor and Vanilla JavaScript: 
+- Advanced CSS 
+- Learn JavaScript without library or framework:
++, Basic
++, DOM
++, JSON
++, Fetch api
++, ES6+
+
+--> At this point your are basic front-end web dev, 
+now able to: 
++, Build static websites
++, Build UI layouts
++, Add dynamic functionality
++, Deploy and maintain websites
+Possible to get a job now
+
+At this point there are some few choices: 
+1, HTML / CSS Framework
+2, Git & Tooling
+3, Front end js framework
+4, Server side language & Database
+
+PATH 1: HTML / CSS Framework
+- Learn Bootstrap, Materialize or Bulma: making UI faster
+and great for protoptyping. Bootstrap is most popular
+
+PATH 2: Git & Tooling
+- Necessary for all web dev
++, Command Line, git
++, Other stuff: minute 15:00 in the vid
+
+PATH 3: Front end Javascript Framework
+*, 3 main frameworks:
+- React: Most Popular
+- Vue: Easy to use and gaining traction
+- Angular: Fading a bit
+
+*, State Management: 
+- Learn methods to manage app-level state
+
+--> At this point you're full fledged front-end web dev:
+able to:
++, Build Incredible front-end applications
++, Smooth & steady front end workflow
++, Works well with team 
++, Connect to backend apis & work with data
+
+Now move on to be full stack developer
+
+PATH 4: Server Side Language
+- Languages options:	- More things to learn:
++, Node.js		+, Fundamental Syntax
++, Python		+, Structure & workflow
++, PHP			+, Package Management 
++, C#			+,HTTP / Routing
++, Go
+
+- Server Side Framework: 
++, Node.js: Express, Koa, Adonis
++, Python: Django, Flask
++, PHP: Laravel, Symfony
++, C#: ASP.net
+
+- Database: choose one or 2:
++, Relational Database: mysql, postgreSQL, MS SQL
++, NoSQL: MongoDB, Couchbase
++, Cloud: Firebase, AWS, Azure DocumentDB
++, Lightweight: SQLite, NeDB, Redis
+
+- Server Rendered Pages 
+
+- CMS (content management system): 
++, PHP based: wordpress (highly recommended)
++, JS Based: ghost, Keystone
++, Python Based: mezzazine
++, .NET: Piranha, Orchard CMS
+
+- DevOps, Deployment & More
+
+--> Full Stack Badass: 
++, Setup full stack dev environemnts & workflow
++, Build back end APIs & micro-services
++, Work with databases
++, construct full-stack apps
++, Deploy to the cloud (SSH, Git, Servers, etc...)
+--> Get a job easily, rockstar now
+
+ADVANCED TOPICS: 
+- Frameworks to build mobile app: choose 1
++, React Native
++, NativeScript
++, Ionic
++, ...
+
+- Desktop App with Electron: powerfull cross-platform desktop app
+using Javascript
+
+- GraphQl & Apollo: 
+- TypeScript: superset of JS with additional features including static
+typing
+- Serverless architecture
+- AI & Machine Learning: started to creep in web development
+Using python, or javascript
+- Blockchain Technology
+- Progressive Web Apps
+- Web assembly: C/C++ (very fast)
+

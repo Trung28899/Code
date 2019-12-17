@@ -1,0 +1,22 @@
+What is Semantic html5 ? 
+Semantic tag is the way to give meaning to data in the web page. For example, a text within
+a <h1> tag is the header, a text with in <p> tag is the paragraph. In html, you can simply
+type a text without giving it any meaning (tag) and it's still visible on the web page.
+ 
+Why you should use semantic html5 ?
+
+Two reason why you should use semantic html5 are: 
+- It makes your code easier to maintain and configure
+- It makes your web page more advantageous for searching 
+
+	Making your code easier to maintain. HTML5 itsself can be very very freecoded,
+which makes it confusing to read a large web page. A way to structure your html code in 
+blocks would be a great help for later configuration. In semantic html5, there are predefined
+structure that you'll have to follow, code have the same format and are coded in blocks
+of tags. Therefore, it's easier to read and maintain.
+
+	Bring more advantage for your page when it comes to searching. When the search 
+engine reads a website, it leave out the style and read the plain html. Semantic tags help 
+search engine to rank what content is more important in the web page. For example, a
+sentence in <h1> tag is ranked higher than <p> tag when it comes to searching. Therefore,
+the text in <p> tag will likely be ignored when it come to searching. 

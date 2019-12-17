@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1530940424 source:c:\users\trung\desktop\c++ learning\test1\main.cpp
+	<iostream>
+	<iomanip>
+

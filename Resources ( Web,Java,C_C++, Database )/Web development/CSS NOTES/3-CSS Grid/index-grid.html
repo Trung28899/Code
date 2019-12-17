@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS Grids </title>
+	
+	<style>
+		.wrapper{
+			/* using grid */
+			display: grid; 
+			grid-template-columns:70% 30%;
+				
+			grid-gap: 1em; 
+			
+			/* same shit as: 
+			grid-column-gap: 1em; 
+			grid-row-gap: 1em;
+			*/
+		}
+		
+		.wrapper div{
+			background: #eee; 
+			padding: 1em; 
+		}
+		
+		.wrapper div:nth-child(odd){
+			background: #ddd; 
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "wrapper">
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental printer: you spend more time monitoring and checking systems than you do actually driving the thing. So the captain passed control of the aircraft to the first officer and began the troubleshooting process from memory.
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+	
+	</div>
+</body>
+
+</html>

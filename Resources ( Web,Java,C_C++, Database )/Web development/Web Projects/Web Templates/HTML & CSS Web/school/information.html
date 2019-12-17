@@ -1,0 +1,203 @@
+<html>
+<head><title>IP Group Assignment</title>
+<link rel ="stylesheet" href="web.css">
+<style>
+p {
+   color: blue;
+  }
+  .selected {
+	font-size: 48px;
+  }
+  .background {
+    background: yellow;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+<body>
+
+	<header>
+		<!-- class container is used for styling in css -->
+		<div class="container">
+			<div id="branding">
+				<!-- This way we can isolate "Trung" for
+				styling and still in the same line with 
+					the header -->
+				<h1><span class="highlight"> TENK </span> Computers </h1>
+		</div>
+		
+			<!-- everything in nav tag is linking a 
+				elements to links -->
+		<nav>
+			<ul> 
+				<li class="current"><a href="web.html">Home</a></li>
+				<li><a href="information.html">Information</a></li>
+				<li><a href="Form.html">Feedback</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+  
+<script type="text/javascript">
+function hideshow(which){
+if (!document.getElementById)
+return
+if (which.style.display=="block")
+which.style.display="none"
+else
+which.style.display="block"
+}
+</script>   
+<center><b><h1><p>Company Information Page<p></h1></b></center>
+<style>
+
+.example1 h4 {
+ font-size: 2em;
+ color: green;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);    
+ transform:translateX(100%);
+  
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); 
+ -webkit-transform: translateX(100%); 
+ transform: translateX(100%);       
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); 
+ -webkit-transform: translateX(-100%); 
+ transform: translateX(-100%); 
+ }
+}
+</style>
+<section id="main-col">
+<div class = "container">
+<div class="example1">
+<h4>Look at all our stuff! </h4>
+<br><br>
+</div>  
+<a href="javascript:hideshow(document.getElementById('adiv'))"><h1 class="page-title"><p>Computer Parts</p></h1></a>
+<div id="adiv">
+<a href="javascript:hideshow(document.getElementById('bdiv'))"><b><h2>Software</h2></b></a>
+<div id="bdiv">
+<b>Operating Systems</b>
+<li>Performs all the basic tasks like managing file,process, and memory. Thus operating system acts as a resource manager
+<li>It acts as an interface between the user and the machine
+<li>The different king of OS include:
+<ul> 
+<li>Batch Operating System</li>
+<li>Time-Sharing Operating System</li>
+<li>Distributed Operating System</li>
+<li>Network Operating System</li>
+<li>Real-Time Operating System</li>
+<script>
+$( "p" ).first().addClass( "selected" ).addClass("background");
+</script>
+</ul>
+</div>
+<a href="javascript:hideshow(document.getElementById('cdiv'))"><b><h2>Hardware</h2></b></a>
+<div id="cdiv">
+<b>CPU</b>
+<li>Central Processing Unit
+<li>The key component of a computer system, which contains the circuitry necessary to interpret and execute program instructions.
+<br><br>
+<b>Motherboards</b>
+<li>A computer’s central communications backbone connectivity point, through which all components and external peripherals connect.
+<br><br>
+<b>Graphic Cards</b>
+<li>A type of display adapter or video card installed within most 
+computing devices to display graphical data with high clarity, color, definition and overall appearance. 
+<li>Provides high-quality visual display by processing and executing 
+graphical data using advanced graphical techniques, features and functions
+<br><br>
+<b>Power Supply</b>
+<li>Provides power in a form that is suitable for every other component inside or attached to the computer in order for it to work.
+<br><br>
+<b>Storage Devices</b>
+<li>Any computing hardware that is used for storing, porting and extracting data files and objects. 
+<li>It can hold and store information both temporarily and permanently, and can be internal or external to a computer, server or any similar computing device.
+<li>Different types of storage devices include:
+<ul>
+<li>Floppy disks 
+<li>USB flash drives
+<li>Memory cards
+<li>Memory sticks
+<li>Tape and Zip cassettes
+<li>Computer hard drives
+<li>CDs and DVDs
+</ul>
+<b>Cases</b>
+<li>The outer shell of a computer
+<li>What the motherboard, hard drives, cd drives, and other 
+peripherals are mounted to make the complete computer.
+<br><br>
+<b>Monitors</b>
+<li>A computer display and related parts packaged in a physical unit that is separate from other parts of the computer
+<br><br>
+<b>Memory</b>
+<li>Where a computer holds the programs and data that are currently in use
+<br>
+<li>Computer memory is any physical device capable of storing information temporarily, 
+or permanently
+<li>Memory devices utilize integrated circuits and are used by operating systems, software, and hardware.
+<br>
+</div>
+</div>
+<a href="javascript:hideshow(document.getElementById('ddiv'))"><h1><p>Computer Services</p></h1></a>
+<div id="ddiv">
+In addition to providing a wide array of essential computer parts, we also offer a variety of great specialty services:
+<a href="javascript:hideshow(document.getElementById('ediv'))"><h2>Computer Fixing</h2></a>
+<div id="ediv">
+We provide the following types of computer fixing/maintenance software:
+<li>Windows Repair
+<li>CCleaner
+<li>CPU-Z
+<li>IObit Uninstaller
+<li>MalwareFox
+<li>EaseUS Partition Master
+<li>Recuva
+</div>
+<a href="javascript:hideshow(document.getElementById('fdiv'))"><h2>Computer Booting</h2></a>
+<div id="fdiv">
+We provide assistance for any troubles regarding computer start-up:
+<li>Computer Not Starting
+<li>Slow Internet
+<li>Computer Providing No Sound
+<li>Keyboard Not Working
+<li>Mouse Not Working
+<li>Web Server Not Launching
+<li>Blank Monitor Screen
+<li>Lack of Sound
+</div>
+<a href="javascript:hideshow(document.getElementById('gdiv'))"><h2>Buying Computer Parts</h2></a>
+<div id="gdiv">
+You can buy any computer part in any quantity at your convenience!!
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>

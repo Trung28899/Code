@@ -1,0 +1,10 @@
+git clone REPOurl (pull all code first time)
+git pull (update code 2nd time and after)
+
+modify any file 
+git status
+git add
+git commit -m "comment"
+git push
+
+> got modified

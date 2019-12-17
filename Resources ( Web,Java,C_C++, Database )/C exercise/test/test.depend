@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1541365099 source:c:\users\trung\desktop\c exercise\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

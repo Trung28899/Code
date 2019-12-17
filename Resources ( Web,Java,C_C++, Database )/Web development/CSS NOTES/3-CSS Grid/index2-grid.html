@@ -1,0 +1,107 @@
+<!--important things to learn: 
+  grid-template-columns -->
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS Grids 2 </title>
+	
+	<style>
+		.wrapper{
+			/* using grid */ 
+			display: grid; 
+
+			/* means repeat 3 times 
+			with 1fr for each box */
+			
+			grid-template-columns: repeat(3, 1fr); 
+			
+			/* same as: 
+			grid-template-columns:1fr 1fr 1fr ;
+			try: 
+			grid-template-columns: repeat(4, 1fr 2fr);
+			*/
+			
+			/* Recommended to use fraction over % or px */
+			
+			grid-gap: 1em; 
+			
+			grid-auto-rows: minmax(100px; auto); 
+			/*
+			grid-auto-rows: 100px; /* setting height of rows */
+			*/
+		}
+		
+		.nested{
+			display: grid; 
+			grid-template-columns: repeat(3, 1fr); 
+			grid-auto-rows: 50px; /*length per row*/
+			grid-gap: 1em; 
+		}
+		
+		.wrapper div{
+			background: #eee; 
+			padding: 1em; 
+		}
+		
+		.wrapper div:nth-child(odd){
+			background: #ddd; 
+		}
+		
+		.nested div{
+			border: #333 1px solid; 
+			padding: 1em; 
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "wrapper">
+		<div>
+			Naturally, there’s a lot to digest in this movie. So we sat down to discuss how Marvel got to this point, consider Endgame’s nagging issues, and figure out what the film’s ending means for Marvel’s future.
+		</div>
+		
+		<div class="nested">
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+			<div> Lorem </div>
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+		
+		<div>
+			A modern-day passenger airplane is less like a racecar and more like a temperamental
+		</div>
+	
+	</div>
+	
+	<a href="https://www.youtube.com/watch?v=jV8B24rSN5o">
+	!! GRID-TEMPLATE-COLUMNS, WATCH AT 11:00 !!
+	</a>
+</body>
+
+</html>

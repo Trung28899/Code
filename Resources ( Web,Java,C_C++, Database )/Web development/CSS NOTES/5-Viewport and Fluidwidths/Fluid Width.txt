@@ -1,0 +1,7 @@
+Fluid width means using % in media query instead of px. 
+
+Make web more responsive 
+
+See Media Query for more info
+
+https://www.youtube.com/watch?v=0gBnRll5XgA

@@ -1,0 +1,76 @@
+*{
+	margin: 0px; 
+}
+
+body, html{
+	height: 100%; 
+	width: 100%; 
+}
+
+.container{
+	width: 100%; 
+	max-width: 1100px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	background-color: #ccc;  
+}
+
+#header{
+	height: 120px; 
+	background-color: blue; 
+}
+
+.box{
+	width: 50%; 
+	height: 140px; 
+	float:left;  
+}
+
+.box1{
+	background-color: yellow; 
+}
+
+.box2{
+	background-color: pink; 
+}
+
+.box3{
+	background-color: grey; 
+}
+
+.box4{
+	background-color: red; 
+}
+
+.clearfix {
+	clear: both; 
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+	.box1{
+		width: 100%; 
+	}
+	
+	.box2{
+		width: 100%; 
+	}
+}
+
+/* Mobile */
+@media screen and (min-width: 0px) and (max-width: 320px)
+{
+	.box3{
+		width: 100%; 
+	}
+	.box4{
+		width: 100%; 
+	}
+}
+
+/* Open Dev Tools and mess around with
+   the screen to see the responsive layout */
+
+
+
+

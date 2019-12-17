@@ -1,0 +1,50 @@
+CREATING REPO AND ADDING FILES FROM LOCAL FILES TO ONLINE REPO
+
+create repo on github 
+go to a file on your computer 
+> open git bash (pre installed program)
+
+$ git init > ???
+$ git remote add randomName Link_of_Repo_on_github 
+> this link the local file location to a repository on github
+> Question: what is the random name for ??
+$ git add .
+> add all the files with in the local file to git repo
+$ git status
+> show the status of all the files
+$ git push -u randomName master
+> Creating user master ??
+
+------------------------------------------------------
+
+AT THIS POINT YOU SHOULD ABLE TO SEE ALL THE FILES ON 
+GITHUB. NOW IF YOU CHANGE ANY CODE IN ANY OF THE FILES
+TRY THE FOLLOWINGS: 
+
+modify something in one of the files
+$ git status > will see the modified file
+$ git add filename > update the file
+$ git status > the file should be uploaded
+$ git commit -m "commit title that you want to put"
+$ git push > push all the update to github
+
+BONUS: you can do this with default branch which is master
+or you can create a branch, switch to that branch name 
+to operate under that branch name
+
+------------------------------------------------------
+CREATING BRANCHES: 
+
+$ git checkout -b branchname > Create branch name
+$ git checkout branchname > switch branch, operate under 
+chosen branchname
+$ git branch > show all the branch name
+$ git push cprog branchname 
+> push code under branchname
+
+------------------------------------------------------
+DELETING BRANCHES: 
+
+$ git push randomName :branchName > Delete branch on github
+$ git checkout master > change branch into master
+$ git branch -d dev > delete dev branch on your computer 

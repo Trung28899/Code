@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1541365490 source:c:\users\trung\desktop\c exercise\roll\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

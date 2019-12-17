@@ -1,0 +1,3 @@
+Learn: 
+- Data structures
+- Algorithm

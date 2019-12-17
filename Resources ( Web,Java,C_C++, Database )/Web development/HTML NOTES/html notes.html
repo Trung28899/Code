@@ -1,0 +1,189 @@
+<!-- HYPER TEXT MARKUP LANGUAGE -->
+<!-- <br/> is self closing tag <br> is fine as well -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Html cheat sheet</title>
+	</head>
+	
+	<body>
+	<a href="html_notes(2).html">Go to note 2</a>
+	<hr>
+	<!-- Heading -->
+		<h1>Heading 1</h1>
+		
+	<!-- Inline vs block level 
+	- Inline tag: dont start on a new line, take only necessary width
+	- Block element: start on a new line a nd take full width avaiable
+	-->
+	
+	<!-- Inline tag -->
+	<p>
+			Lorem <strong>ipsum bla </strong> bla 2
+	</p>
+		<!-- <a> is a link tag -->
+	<p>
+			Lorem <a href="http://google.com">ipsum </a> bla bla 
+	</p>
+	
+	<!-- Tag Attributes: provide information about an element
+	, placed within the start tag -->
+		<!-- <ul> is UNORDERED List tag -->
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>
+		
+		<!-- <ol> is ORDERED List tag -->
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ol>
+		
+		<!-- Table -->
+		<table>
+		<!-- thead: TABLE HEAD, tbody: TABLE BODY -->
+			<thead>
+			<!-- <tr> is TABLE ROW, <th> is TABLE HEADING,
+			<td> is TABLE DATA -->
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>Trung</td>
+					<td>trung@gmail.com</td>
+					<td>20</td>
+				</tr>
+				
+				<tr>
+					<td>Minh</td>
+					<td>minh@gmail.com</td>
+					<td>20</td>
+				</tr>
+				
+				<tr>
+					<td>Nam</td>
+					<td>nam@gmail.com</td>
+					<td>20</td>
+				</tr>
+
+				<tr>
+					<td>Phuc</td>
+					<td>phúc@gmail.com
+					<td>20</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br>
+		<hr> <!-- Horizontal straight line -->
+		<br>
+		
+		<!-- Forms: post is adding data to the 
+		server, safe. Get is submit data, not 
+		very safe -->
+		<!--type attributes matters, 
+		notice the type in the form -->
+		
+		<form action="process.php" method="POST">
+			<div> <!-- Using place holder -->
+				<label>First Name</label>
+				<input type="text" name="firstName"
+				placeholder="Enter First Name">
+			</div>
+			
+			<div> <!-- div is block level element -->
+				<br>
+				<label>Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+			
+			<div> <!-- div is block level element -->
+				<br>
+				<label>Email</label>
+				<input type="email" name="email">
+				<!--type email has more validation than text -->
+			</div>
+			
+			<div> <!-- div is block level element -->
+				<br>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			
+			<div> <!-- div is block level element -->
+				<br>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Femal</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+			
+			<div> <!-- setting default value, type
+				matters a lot -->
+				<br>
+				<label>Age</label>
+					<input type="number" name="age" value="20">
+			</div>
+			
+			<div> 
+				<br>
+				<label>Birthday</label>
+				<input type="date" name="birthDay" >
+			</div>
+			
+			<input type="submit" name="submit" value="submit">
+		</form>
+		
+		<!-- Button outside form -->
+		<button>Click me</button>
+		<br>
+		
+		<!-- link the image to the actual image
+			so if people clicked on the image, it'll
+			show the image in seperated page -->
+		<a href = "images/sample.jpg">
+			<!-- image tag, self closing tag
+				if the image doesn't show, the
+				text in alt will be shown instead -->
+			<img src="images/sample.jpg" alt="My sample image"
+			width="1000px">
+		</a>
+		
+		<!-- Different styles of quotation -->
+		
+		<blockquote cite="http://traversymedia.com">
+			This is the block quote. Used for some kind of quote
+		    cite is where the quote comes from. Does add a little bit
+			of styling
+		</blockquote>
+		
+		<p>The <abbr title="world wide web">www</abbr> is awesome
+			This shows how the abbreviation tag works
+		</p>
+		
+		<p>
+			<cite> Html crash course </cite> by Brad Traversy. If
+			we add cite, style is italic
+		</p>
+		<hr>
+		<h1> SEMENTIC TAGS </h1>
+		<!-- HTML SEMENTIC TAGS -->
+		<!-- Tags to structure your documen file, 
+			see the picture -->
+			<form action="html_notes(2).html" >
+			<input type="submit" name="submit" value="Click To Next Notes">
+			</form>
+		
+	</body>
+</html>
+

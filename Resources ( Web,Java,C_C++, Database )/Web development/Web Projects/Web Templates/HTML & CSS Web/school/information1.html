@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- make content viewable by any devices -->
+	<meta name="viewport" content="width=device=width">
+	
+	<!-- What does these codes do ? scl ?? -->
+	<meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+	<meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Quang Trung Trinh">
+	
+	<title>Web Design | Information </title>
+	<!-- linking css -->
+	<link rel ="stylesheet" href="web.css">
+	
+</head>
+
+<body>
+	<!-- refers segmantic tag, header is the
+		header of the page -->
+	<header>
+		<!-- class container is used for styling in css -->
+		<div class="container">
+			<div id="branding">
+				<!-- This way we can isolate "Trung" for
+				styling and still in the same line with 
+					the header -->
+				<h1><span class="highlight"> TENK </span> Computers </h1>
+		</div>
+		
+			<!-- everything in nav tag is linking a 
+				elements to links -->
+		<nav>
+			<ul> 
+				<li><a href="web.html">Home</a></li>
+				<li class="current"> <a href="information.html">Information</a></li>
+				<li><a href="Form.html">Feedback</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+	
+	<section id="newsletter">
+		<div class="container">
+			<h1> Subscribes To Our Newsletter</h1>
+			
+			<form>
+			<input type="email" placeholder="Enter Email...">
+			<button type="submit" class="button_1">Subscribes</button>
+			</form>
+		</div>
+	</section>
+	
+	<section id="main">
+		<div class="container">
+			<!-- article is html semantic tag -->
+		<article id="main-col">
+			<h1 class="page-title">Services</h1>
+				<ul id="services">
+					<li>
+						<h3>Website Design</h3>
+						<p>Aliquam faucibus neque non mollis vulputate. Maecenas vitae dignissim felis, sit amet laoreet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu commodo odio. Cras eu dictum tortor. Donec et posuere lectus. Proin eleifend ut ligula ut varius. Proin nibh odio, efficitur at accumsan non, molestie et dolor.
+						</p>
+						<p> Pricing: $1,000 - $3,000 </p>
+					</li>
+					
+					<li>
+						<h3>Website Maintenance</h3>
+						<p>Aliquam faucibus neque non mollis vulputate. Maecenas vitae dignissim felis, sit amet laoreet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu commodo odio. Cras eu dictum tortor. Donec et posuere lectus. Proin eleifend ut ligula ut varius. Proin nibh odio, efficitur at accumsan non, molestie et dolor.
+						</p>
+						<p> Pricing: $250 per month </p>
+					</li>
+					
+					<li>
+						<h3>Website Hosting</h3>
+						<p>Aliquam faucibus neque non mollis vulputate. Maecenas vitae dignissim felis, sit amet laoreet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu commodo odio. Cras eu dictum tortor. Donec et posuere lectus. Proin eleifend ut ligula ut varius. Proin nibh odio, efficitur at accumsan non, molestie et dolor.
+						</p>
+						<p> Pricing: $25 per month </p>
+					</li>
+				</ul>
+		</article>
+				
+		<!-- Making a sidebar -->
+			<aside id="sidebar">	
+			  <div class="dark">
+				<h3>Get a Quote </h3>
+					<form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+				</div>
+			</aside>
+			
+		</div>
+	</section>
+
+	<footer>
+		<p>Tenk Computers Design, Copyright &copy 2019</p>
+	</footer>
+</body>
+
+</html>

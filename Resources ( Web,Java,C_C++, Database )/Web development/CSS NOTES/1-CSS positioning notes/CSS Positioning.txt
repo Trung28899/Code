@@ -1,0 +1,50 @@
+video: https://www.youtube.com/watch?v=wmAP2xvNs08
+
+Css Positioning Theory: 
+
+- Default position: static. 
+This is when the page load and render the order of the html documentation
+Howevers, sometimes you would want to relocate pieces of content or even 
+change the order of pieces of content. To do so, you can use 3 position 
+values: absolute, relative and fixed
+
+- Some background info: 
++, When we add position property, we now can use 4 other properties
+for postioning: top, bottom, left, right
++, When we positioning the pieces, keep in mind there is 2 things 
+you should keep in mind: the position properties (top, bottom, left, right)
+and where are these positioning refers to (positioning context).
++, Understand css positioning values is to understand where the positioning
+refers to.
+
+- absolute: 
++, Positioning context: positioning based on its parent. In order to be parent, 
+the parent tag must also have position: absolute. If there is no parent mentioned
+<html> will be its parents
++, The element with postion absolute will be removed from the document flow and 
+repositioned based on the specified position based on its parent
++, example: 
+position: absolute;
+top: 10px; 
+means move down 10px from the top of the parent
+
+- relative: 
++, Positioning context: positioning based on its original position (or based on its 
+static position)
++, example: 
+position: relative; 
+top: 10px; 
+means move down 10px from its original position
+
+- static: 
++, Positioning context: always refer to the viewport - <html>. 
++, It's not affected by scroll, if you scroll, the position remain the same
++, example: 
+position: fixed; 
+top: 20px; 
+means move down 20px from the begin of the whole page
+
+*, Bonus: z-index
++, When two elements are on top of each other, the one with higher value of z-index property
+will be shown
++, z-index does not work with static position.

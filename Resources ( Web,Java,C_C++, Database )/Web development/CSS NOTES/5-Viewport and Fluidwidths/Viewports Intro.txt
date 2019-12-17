@@ -1,0 +1,14 @@
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+Setting Viewport is topic of responsive web developing. 
+
+Normally, the big website in desktop browser would be squeeze down
+to fit any smaller screen mobile device.
+
+This makes the elements of the website in mobile screen very small
+and hard to see. 
+
+A responsive website must have different alignments for its elements
+if the website is on a smaller screen device.
+
+We can set the Viewport to achieve this

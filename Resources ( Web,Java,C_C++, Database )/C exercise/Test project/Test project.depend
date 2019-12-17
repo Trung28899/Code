@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536161961 source:c:\users\trung\desktop\c exercise\test project\main.c
+	<stdio.h>
+	<time.h>
+	"header.h"
+
+1536162011 c:\users\trung\desktop\c exercise\test project\header.h
+
+1536161961 source:c:\users\trung\desktop\c exercise\test project\sub-main.c
+	<stdio.h>
+	<time.h>
+	"header.h"
+
