@@ -1,6 +1,0 @@
-using fontawesome: 
-
-Download free version on fontawesome.com > extract > open all.css on browser 
-(ctrl + o on browser)
-> get the full path of the file in the computer > put that link in Html file
-> search for item that you want on fontawesome.com > copy to your html file
