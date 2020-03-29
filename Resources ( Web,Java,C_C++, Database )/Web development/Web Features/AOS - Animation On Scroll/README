@@ -1,0 +1,6 @@
+This module is developed with AOS and Boostrap: 
+how to implement AOS: 
+- Go to this website: https://michalsnik.github.io/aos/
+- scroll all the way down, copy and past CDN
+- Remember to implement AOS.init()
+- now you can use the data fields in the page

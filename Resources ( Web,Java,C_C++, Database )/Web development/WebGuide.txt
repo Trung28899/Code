@@ -1,0 +1,58 @@
+1. Advance in Web design: Jumping to the next level !!
+- Tutorial video:
+https://www.youtube.com/watch?v=CrSC1ZA9j0M
+- Source Code: 
+https://github.com/akashyap2013/Blooger_Website
+- Strategy: code what you need to learn only, since
+you have the source code, you can just copy and paste
+what you already know
+
+BONUS: 
+- Have a look at this source code: These project using bootstrap
+for designs
+(1)https://github.com/akashyap2013/Books-bootstrap-website
+(2)https://github.com/akashyap2013/Bootstrap-4_Res-Website
+- Things should learn from (1): note that in this project,
+only assets and src folder matters
++, Fadding Nav bar
++, Changing number when scroll down
++, hover on Pages and seeing options
++, book image over landing background
+- Things should learn from (2): 
++, Video in landing page
++, zooming image when hover over
+
+2. Advance in Front End development: 
+- Finish Udemy javascript course
+- Buy a react course and finish it: 
++, Do a crash course
++, buy traversymedia front to back course
+
+
+3. Production: 
+- Finish website for anh Dat
+- Finish website for Bố
+- Ask to make a website for anh Triết
+
+
+
+
+
+
+
+
+
+
+
+
+BONUS: 
+Next level CSS animation: 
+https://www.youtube.com/watch?v=KYOYVZcZYAI
+https://www.youtube.com/watch?v=IpJfn48I9CA
+
+Next level CSS nav bar: 
+https://www.youtube.com/watch?v=kAGkAJDLYGY
+
+Guide to advance: 
+> Javascript Udemy Series > Nodejs crash course
+> React course
